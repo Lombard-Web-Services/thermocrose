@@ -196,6 +196,7 @@ Selon les conditions suivantes :
 
 Ce document a été élaboré avec l'assistance des outils d'intelligence artificielle suivants :
 
+- **[MOULT-AI Enterprise](https://lombard-web-services.com/Moult-AI_Enterprise-edition/)** - Orchestration Multi-IA Planification
 - **[Kimi](https://kimi.moonshot.cn)** - Analyse structurée, formalisation mathématique, génération du document HTML 10 pages
 - **[Grok](https://grok.x.ai)** - Discussion initiale sur les fondements physiques, clarification des concepts de gravité/magnétisme/thermique
 
