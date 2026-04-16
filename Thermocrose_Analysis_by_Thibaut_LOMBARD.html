@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographie Thermochrose • Melloni & Cartographie Spectrale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { transition: background-color 0.3s, color 0.3s; }
+        .dark { background-color: #0f172a; color: #e2e8f0; }
+        .light { background-color: #f8fafc; color: #1e2937; }
+        .card { transition: all 0.3s; }
+    </style>
+</head>
+<body class="dark min-h-screen">
+
+    <!-- Header avec toggle Dark/Light -->
+    <header class="sticky top-0 z-50 bg-slate-900 dark:bg-slate-950 shadow-lg border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold flex items-center gap-3">
+                <i class="fa-solid fa-temperature-high text-orange-500"></i>
+                Thermochrose de Melloni
+            </h1>
+            <button id="themeToggle" 
+                    class="px-5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 flex items-center gap-2 text-sm font-medium">
+                <i class="fa-solid fa-sun"></i>
+                <span id="themeText">Mode Clair</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-6 py-10">
+
+        <!-- Titre principal -->
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold mb-3">La Chaleur Rayonnante comme Lumière Invisible</h2>
+            <p class="text-xl text-slate-400">Loi inverse carrée • Instruments de Melloni • Sources de chaleur • Cartographie spectrale des mécanismes d’émission</p>
+        </div>
+
+        <!-- Instruments de Melloni -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="card bg-slate-800 dark:bg-slate-900 p-6 rounded-3xl border border-slate-700">
+                <h3 class="text-xl font-semibold mb-4 text-orange-400">Instruments Clés</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><i class="fa-solid fa-circle text-emerald-400"></i> Thermoscope (2 sphères gaussiennes isotropes)</li>
+                    <li><i class="fa-solid fa-circle text-emerald-400"></i> Thermomultiplicateur + Galvanomètre (Thermactinomètre)</li>
+                    <li><i class="fa-solid fa-circle text-emerald-400"></i> Dispositif d’Arago (miroirs)</li>
+                    <li><i class="fa-solid fa-circle text-emerald-400"></i> Œthrioscope (chaleur diffuse)</li>
+                </ul>
+            </div>
+            <div class="card bg-slate-800 dark:bg-slate-900 p-6 rounded-3xl border border-slate-700">
+                <h3 class="text-xl font-semibold mb-4 text-orange-400">Phénomène Sous-jacent</h3>
+                <p class="text-lg leading-relaxed">Conservation du flux radiatif sur des surfaces sphériques concentriques → <span class="font-mono text-amber-400">I ∝ 1/r²</span></p>
+            </div>
+            <div class="card bg-slate-800 dark:bg-slate-900 p-6 rounded-3xl border border-slate-700">
+                <h3 class="text-xl font-semibold mb-4 text-orange-400">Sources de Chaleur</h3>
+                <div class="flex flex-col gap-2 text-sm">
+                    <div class="bg-emerald-900/30 p-3 rounded-2xl">Directe (ponctuelle) – Thermique primaire</div>
+                    <div class="bg-blue-900/30 p-3 rounded-2xl">Réfléchie (miroir d’Arago)</div>
+                    <div class="bg-purple-900/30 p-3 rounded-2xl">Diffuse / Atmosphérique (œthrioscope)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phénomènes 1/r² -->
+        <div class="card bg-slate-800 dark:bg-slate-900 p-8 rounded-3xl mb-12">
+            <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-chart-line text-amber-400"></i>
+                Phénomènes suivant la Loi Inverse Carrée (extrait des ~150)
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
+                <div>
+                    <h4 class="font-medium text-orange-400 mb-2">Gravité & Champs</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Champ gravitationnel newtonien</li>
+                        <li>Flux gravitationnel (théorème de Gauss)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium text-orange-400 mb-2">Chaleur & Infrarouge</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Chaleur rayonnante corps noir</li>
+                        <li>IR-C (3 µm – 1 mm)</li>
+                        <li>Émission IR galaxies elliptiques, JWST, Spitzer, WISE, AKARI</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium text-orange-400 mb-2">Lumière & EM</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Lumière visible, UV, Micro-ondes, Ondes radio</li>
+                        <li>Flux solaire, stellaire, synchrotron, bremsstrahlung</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium text-orange-400 mb-2">Rayons & Particules</h4>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Rayons X, γ, neutrons, protons solaires</li>
+                        <li>Flux de neutrinos, rayons cosmiques</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium text-orange-400 mb-2">Astrophysique</h4>
+                    <ul class="list-disc pl-5 space-y-1 text-xs">
+                        <li>Émission pulsars, GRB, supernovæ, AGN, quasars, FRB…</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartographie spectrale -->
+        <div class="card bg-slate-800 dark:bg-slate-900 p-8 rounded-3xl">
+            <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                <i class="fa-solid fa-spectrum text-emerald-400"></i>
+                Cartographie des Mécanismes d’Émission de Lumière
+            </h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-700">
+                            <th class="py-4 px-4 text-left">Mécanisme</th>
+                            <th class="py-4 px-4 text-left">Gamme spectrale</th>
+                            <th class="py-4 px-4 text-left">Nature thermique</th>
+                            <th class="py-4 px-4 text-left">Lien avec Melloni</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-700">
+                        <tr><td class="py-3 px-4">Photoluminescence / Fluorescence / Phosphorescence</td><td>UV–Vis–NIR</td><td>Non-thermique</td><td>Absorption possible en IR</td></tr>
+                        <tr><td class="py-3 px-4">Chimiluminescence / Bioluminescence</td><td>Vis–NIR</td><td>Non-thermique (froide)</td><td>Faible lien direct</td></tr>
+                        <tr><td class="py-3 px-4">Tribo / Mécanoluminescence</td><td>Vis–NIR</td><td>Non-thermique</td><td>IR secondaire possible</td></tr>
+                        <tr><td class="py-3 px-4">Radioluminescence / Scintillation</td><td>UV–Vis–NIR</td><td>Non-thermique</td><td>Absorption/ré-émission</td></tr>
+                        <tr><td class="py-3 px-4 font-medium">Thermoluminescence</td><td>Vis ~350–650 nm</td><td>Thermique (dépiégeage)</td><td>Proche de la chaleur</td></tr>
+                        <tr class="bg-emerald-900/20"><td class="py-3 px-4 font-medium">Plasma de décharge LTE</td><td>Continuum Planck (UV–IR)</td><td><strong>Thermique fort</strong></td><td><strong>Direct</strong> : Corps noir de Melloni</td></tr>
+                        <tr><td class="py-3 px-4">Sonoluminescence</td><td>Vis–UV (T ~4000–10000 K)</td><td>Quasi-thermique</td><td>Émission thermique brève</td></tr>
+                        <tr><td class="py-3 px-4">Électroluminescence (LED / OLED)</td><td>UV–NIR</td><td>Non-thermique</td><td>Peut émettre en IR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs text-slate-400 mt-6 text-center">La chaleur rayonnante mesurée par Melloni correspond principalement à l’émission thermique de corps noir (continuum Planck) dans l’infrarouge.</p>
+        </div>
+
+        <div class="text-center text-slate-500 text-xs mt-16">
+            Infographie • Gravité → Magnétisme → Infrarouges → Melloni → Loi inverse carrée → Sources de chaleur → Cartographie spectrale
+        </div>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const themeText = document.getElementById('themeText');
+
+        toggle.addEventListener('click', () => {
+            if (body.classList.contains('dark')) {
+                body.classList.remove('dark');
+                body.classList.add('light');
+                themeText.textContent = 'Mode Sombre';
+                toggle.innerHTML = `<i class="fa-solid fa-moon"></i><span id="themeText">Mode Sombre</span>`;
+            } else {
+                body.classList.remove('light');
+                body.classList.add('dark');
+                themeText.textContent = 'Mode Clair';
+                toggle.innerHTML = `<i class="fa-solid fa-sun"></i><span id="themeText">Mode Clair</span>`;
+            }
+        });
+    </script>
+</body>
+</html>
