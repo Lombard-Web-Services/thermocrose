@@ -121,6 +121,7 @@ Numérisation disponible sur [Austrian Newspapers Online (ANNO), ÖNB](https://d
 ### Liens externes
 
 - **Documentation en ligne :** https://lombard-web-services.github.io/thermocrose/Identification_des_sources_calorifiques.html
+- **Analyse :** https://lombard-web-services.github.io/thermocrose/Thermocrose_Analysis_by_Thibaut_LOMBARD.html
 - **Repository GitHub :** https://github.com/Lombard-Web-Services/thermocrose
 - **Base de données 150 phénomènes :** https://lombard-web-services.github.io/Docs/Inverse_Square_Law_phenomenon_FR.html
 
