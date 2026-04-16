@@ -101,26 +101,6 @@ Numérisation disponible sur [Austrian Newspapers Online (ANNO), ÖNB](https://d
 
 ---
 
-## Structure du repository
-
-```
-thermocrose/
-├── README.md                           # Ce fichier
-├── docs/
-│   ├── Inverse_Square_Law_phenomenon_FR.html  # Base de données des 150 phénomènes
-│   └── Identification_des_sources_calorifiques.html  # Documentation complète
-├── src/
-│   └── (fichiers source de l'analyse)
-├── assets/
-│   ├── methodes_exploratoires.png      # Schéma des méthodes de découverte
-│   ├── 150_phenomenes.png              # Distribution des phénomènes 1/r²
-│   ├── chaine_mesure_melloni.png       # Chaîne thermo-électro-magnétique
-│   └── differenciation_chaleurs.png    # Types de chaleur selon Melloni
-└── melloni_thermochrose_FINAL.html     # Document complet 10 pages
-```
-
----
-
 ## Documentation complète
 
 ### Document principal
@@ -219,7 +199,7 @@ Ce document a été élaboré avec l'assistance des outils d'intelligence artifi
 - **[Kimi](https://kimi.moonshot.cn)** - Analyse structurée, formalisation mathématique, génération du document HTML 10 pages
 - **[Grok](https://grok.x.ai)** - Discussion initiale sur les fondements physiques, clarification des concepts de gravité/magnétisme/thermique
 
-**Responsable du projet :** Lombard Web Services
+**Responsable du projet :** Thibaut LOMBARD (Lombard Web Services)
 
 ---
 
@@ -227,7 +207,6 @@ Ce document a été élaboré avec l'assistance des outils d'intelligence artifi
 
 Pour toute question ou collaboration concernant ce projet :
 
-- **Site web :** https://lombard-web-services.github.io
 - **GitHub :** https://github.com/Lombard-Web-Services
 - **Repository :** https://github.com/Lombard-Web-Services/thermocrose
 
