@@ -198,8 +198,9 @@ Selon les conditions suivantes :
 Ce document a été élaboré avec l'assistance des outils d'intelligence artificielle suivants :
 
 - **[MOULT-AI Enterprise](https://lombard-web-services.com/Moult-AI_Enterprise-edition/)** - Orchestration Multi-IA Planification
-- **[Kimi](https://kimi.moonshot.cn)** - Analyse structurée, formalisation mathématique, génération du document HTML 10 pages
-- **[Grok](https://grok.x.ai)** - Discussion initiale sur les fondements physiques, clarification des concepts de gravité/magnétisme/thermique
+- **[Kimi](https://kimi.moonshot.cn)** - Analyse structurée pour l'identification des sources calorifiques, formalisation mathématique, génération du document HTML 10 pages
+- **[DeepSeek](https://deepseek.com)** - Deboggage du travail d'identification
+- **[Grok](https://grok.x.ai)** - Discussion initiale sur les fondements physiques, clarification des concepts de gravité/magnétisme/thermique, ajustement du vocable sur les Gaussienne, premiere génération de l'analyse
 
 **Responsable du projet :** Thibaut LOMBARD (Lombard Web Services)
 
