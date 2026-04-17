@@ -1,6 +1,6 @@
 # Thermochrose
 
-Analyse de l'ouvrage sur la Thermochrose de Macedonio Melloni (1850) et recherche des moyens d'identification et de caractérisation de la chaleur rayonnante.
+Analyse de l'ouvrage sur la Thermochrose de Macedonio Melloni (1850) et recherche des moyens d'identification et de caractérisation de la chaleur rayonnante en s'inspirant des instruments de mesure.
 
 ---
 
