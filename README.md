@@ -248,3 +248,5 @@ Pour toute question ou collaboration concernant ce projet :
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Made with Kimi](https://img.shields.io/badge/Made%20with-Kimi-blue)](https://kimi.moonshot.cn)
 [![Made with Grok](https://img.shields.io/badge/Made%20with-Grok-black)](https://grok.x.ai)
+[![Made with Kimi](https://img.shields.io/badge/Made%20with-Moult_AI-blue)]([https://kimi.moonshot.cn](https://lombard-web-services.com/Moult-AI_Enterprise-edition/))
+
