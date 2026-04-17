@@ -1,5 +1,13 @@
 # Thermochrose
 
+&lt;div align="center"&gt;
+
+![Extrait original de l'ouvrage de Melloni (1850)](https://raw.githubusercontent.com/Lombard-Web-Services/thermocrose/main/extrait.png)
+
+*Extrait original de "La Thermochrose ou la Coloration Calorifique" de Macedonio Melloni (1850)*
+
+&lt;/div&gt;
+
 Analyse de l'ouvrage sur la Thermochrose de Macedonio Melloni (1850) et recherche des moyens d'identification et de caractérisation de la chaleur rayonnante en s'inspirant des instruments de mesure cités dans le livre.
 
 ---
@@ -48,6 +56,14 @@ La recherche a successivement examiné plusieurs candidats pour expliquer la cha
 ### Phase 2 : Cartographie de la loi inverse carrée
 
 L'analyse s'est étendue à l'identification de **150 phénomènes physiques** obéissant à la loi inverse carrée $I \propto 1/r^2$, établissant une classification systématique des sources de chaleur et des mécanismes d'émission.
+
+&lt;div align="center"&gt;
+
+![Distribution des 150 phénomènes suivant la loi inverse carrée](https://raw.githubusercontent.com/Lombard-Web-Services/thermocrose/main/ISL_barchart.png)
+
+*Distribution des 150 phénomènes physiques obéissant à la loi inverse carrée*
+
+&lt;/div&gt;
 
 **Base de données :** [Inverse Square Law Phenomenon Database](https://lombard-web-services.github.io/Docs/Inverse_Square_Law_phenomenon_FR.html)
 
@@ -131,6 +147,14 @@ Numérisation disponible sur [Austrian Newspapers Online (ANNO), ÖNB](https://d
 
 ### Chaîne de mesure de Melloni
 
+&lt;div align="center"&gt;
+
+![Chaîne de mesure de Melloni - De la chaleur à la déviation](https://raw.githubusercontent.com/Lombard-Web-Services/thermocrose/main/chaine_de_mesure-chaleur-deviation.png)
+
+*Chaîne de mesure complète : de la source thermique à la déviation du rhéomètre*
+
+&lt;/div&gt;
+
 La "chaleur" mesurée par Melloni n'est pas une température absolue mais une **déviation électromagnétique** proportionnelle au flux radiatif :
 
 $$\theta_{rhéo} = G \times \frac{n\alpha_{SA}}{R_{th}} \times \frac{\sigma T^4 A_{source}}{4\pi r^2} \times e^{-\tau} \times \epsilon_{det}$$
@@ -152,6 +176,16 @@ Où :
 | Réfléchie | $I = \rho I_0 / r^2$ | Dispositif d'Arago |
 | Réfractée | $I \propto 1/r^2$ (avec pertes) | Prisme de sel gemme |
 | Diffuse | $I = \text{constante}$ | Œthrioscope |
+
+### Méthodes exploratoires
+
+&lt;div align="center"&gt;
+
+![Méthodes exploratoires pour l'identification de nouvelles sources calorifiques](https://raw.githubusercontent.com/Lombard-Web-Services/thermocrose/main/methodes_exploratoires.png)
+
+*Matrice des méthodes exploratoires pour la découverte de nouvelles sources de chaleur*
+
+&lt;/div&gt;
 
 ---
 
