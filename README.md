@@ -19,7 +19,7 @@ Analyse de l'ouvrage sur la Thermochrose de Macedonio Melloni (1850) et recherch
 
 ## Origine du projet
 
-Ce projet est né d'une question fondamentale : **la gravité newtonienne n'explique pas la chaleur**. Cette constatation initiale a conduit à une investigation systématique des mécanismes physiques susceptibles de caractériser la nature de la chaleur rayonnante, aboutissant à la redécouverte et à l'analyse approfondie des travaux de Macedonio Melloni (1850) sur la thermochrose.
+Ce projet est né d'une remarque fondamentale : **la gravité newtonienne n'explique pas la chaleur**. Cette constatation initiale a conduit à une investigation systématique des mécanismes physiques susceptibles de caractériser la nature de la chaleur rayonnante, aboutissant à la redécouverte et à l'analyse approfondie des travaux de Macedonio Melloni (1850) sur la thermochrose.
 
 ### La question initiale
 
