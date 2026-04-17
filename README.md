@@ -197,6 +197,7 @@ La "chaleur" telle que mesurée par les instruments historiques est déjà **"co
 | Thermique (Melloni) | Flux $\Phi$ | $1/r^2$ | Entropie du rayonnement $S = \frac{4}{3}aT^3$ |
 
 
+---
 
 ![Extrait original de l'ouvrage de Melloni (1850)](https://raw.githubusercontent.com/Lombard-Web-Services/thermocrose/main/extrait.png)
 
